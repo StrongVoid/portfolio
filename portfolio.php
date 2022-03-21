@@ -44,14 +44,11 @@ $login = getUserLogin();						  # Выводим переменную $login и�
   Отладка запросов API - https://postman.com</p>
 </strong>
 
-
 <div align= "center">
 <div><h3>Dadata</h3><br><img  src="img/schem1.png" width="50%"  alt="картинка"><br><br></div>
 <div><h3>OpenAPI - token</h3><br><img  src="img/schem2.png" width="50%"  alt="картинка"><br><br></div>
 <div><h3>OpenAPI - Check</h3><br><img  src="img/schem3.png" width="50%"  alt="картинка"><br><br></div>
 </div>
-
-
 
 </div>
 </div>

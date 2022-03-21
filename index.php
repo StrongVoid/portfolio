@@ -12,7 +12,7 @@ $login = getUserLogin();        # Получаем login клиента в ин�
     <?php else: #Если авторизация найдена, продолжаем рендер страницы ?>
 
 
- <div align='left' style="padding-left: 10%">
+   <div align='left' style="padding-left: 10%">
    <p><h1 align="center">Приступим!!</p>
    <img src="img/memes.png"><br><br></h1>
 

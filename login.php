@@ -6,7 +6,7 @@ if (!empty($_POST)) {
     $login = $_POST['login'];
     $password = $_POST['password'];
 
-    if (checkAuth($login, $password)) { # Проверка введёных данных в базе на наличие совпадение
+    if (checkAuth($login, $password)) { # Проверка введёных данных в базе на наличие совпадение 
         setcookie('login', $login, 0, '/');
         setcookie('password', $password, 0, '/');
         header('Location: /index.php'); # Положительный ответ, выдаём куки и переводим на первую страницу

@@ -1,7 +1,7 @@
-<?php require_once 'inc/header.php';  # Рендер шапки интерфейса
-include 'functions.php';              # Подключение файла функций
-require_once 'auth.php'; 							# Подключаем авторизацию
-$login = getUserLogin();						  # Выводим переменную $login из авторизации, для дальнейшей проверки
+<?php require_once 'inc/header.php';    # Рендер шапки интерфейса
+include 'functions.php';                # Подключение файла функций
+require_once 'auth.php'; 		# Подключаем авторизацию
+$login = getUserLogin();		# Выводим переменную $login из авторизации, для дальнейшей проверки
  ?>
 
 

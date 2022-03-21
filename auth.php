@@ -1,5 +1,5 @@
 <?php
-function checkAuth($login, $password) # Проверка на авторизованного пользователя
+function checkAuth($login, $password)  # Проверка на авторизованного пользователя
 {
     $users = require __DIR__ . '/users.php';
 
